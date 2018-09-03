@@ -71,8 +71,7 @@ $(document).ready(function () {
     { img: 'dekra-logokopie.png' },
     { img: 'overheidkopie.png' },
     { img: 'generalikopie.png'},
-    { img: 'euronext.png'},
-    { img: 'heineken-logokopie.png' },
+    { img: 'taxtimbre.png'},
     { img: 'firm24-logo-inverse.png' },
   ];
 
