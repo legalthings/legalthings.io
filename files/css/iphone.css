@@ -1,0 +1,173 @@
+/********** Normalize *********/
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+/********** Phone Body *********/
+
+.iphone-body {
+	height: 867px;
+	width: 423px;
+	padding: 15px;
+	background: #fff;
+	box-shadow: inset 0 0 3px 0 rgba(70, 73, 76, 0.3),
+		0 0 0 1px rgba(76, 92, 104, 0.3), 0 1px 20px 0px rgba(0, 0, 0, 0.4);
+	border: 5px solid #f2f2f2;
+	border-radius: 50px;
+	margin: 30px auto;
+	position: relative;
+	transform: scale(0.8);
+}
+
+/********** Phone Top *********/
+
+.iphone-top {
+	padding: 5px 110px 40px;
+	position: relative;
+}
+
+.top-section .camera {
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 13px;
+	border-radius: 50%;
+	background: #46494c;
+}
+
+.top-section .mic {
+	display: block;
+	width: 70px;
+	height: 6px;
+	margin: 0 auto;
+	border-radius: 8px;
+	background: #46494c;
+}
+
+.top-section .speaker {
+	display: block;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	left: 130px;
+	top: 43px;
+	margin: 0 auto;
+	border-radius: 8px;
+	background: #46494c;
+}
+
+/* Accents on sides of top and bottom of the phone body */
+
+.top-bar,
+.bottom-bar {
+	display: block;
+	position: absolute;
+	width: 423px;
+	height: 15px;
+	border-left: 5px solid #c5c3c6;
+	border-right: 5px solid #c5c3c6;
+	right: -5px;
+}
+
+.top-bar {
+	top: 50px;
+}
+
+.bottom-bar {
+	bottom: 50px;
+}
+
+/********** Phone Screen *********/
+
+.screen {
+	height: 667px;
+	width: 375px;
+	background-image: url('img/screens/re-flow-1.png');
+	background-size: 375px 667px;
+	margin: 0 auto;
+	border: 1px solid #4c5c68;
+	border-radius: 2px;
+	position: relative;
+	top: 35px;
+}
+
+/********** Phone Screen Content Frontend Challenge *********/
+
+/********** Phone Side Buttons *********/
+
+.buttons .on-off, .buttons .sleep, .buttons .up, .buttons .down {
+	display: block;
+	position: absolute;
+	background: rgba(0,0,0,0.3);
+	border-radius: 2px 0 0 2px;
+}
+
+.buttons .on-off {
+	height: 30px;
+	width: 3px;
+	top: 95px;
+	left: -8px;
+}
+
+.buttons .sleep {
+	height: 45px;
+	width: 3px;
+	top: 160px;
+	transform: rotate(180deg);
+	right: -8px;
+}
+
+.buttons .up {
+	height: 45px;
+	width: 3px;
+	top: 160px;
+	left: -8px;
+}
+
+.buttons .down {
+	height: 45px;
+	width: 3px;
+	top: 215px;
+	left: -8px;
+}
+
+/********** Phone Bottom Button *********/
+
+.iphone-bottom {
+	padding: 50px 0 0;
+}
+.iphone-bottom span {
+	display: block;
+	margin: 0 auto;
+	width: 68px;
+	height: 68px;
+	background: #ccc;
+	border-radius: 50%;
+	background: linear-gradient(
+		135deg, #303233 0%,
+		#b5b7b9 50%,
+		#f0f2f2 69%,
+		#303233 100%
+	);
+	position: relative;
+}
+.iphone-bottom span:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #fff;
+	border-radius: 50%;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}

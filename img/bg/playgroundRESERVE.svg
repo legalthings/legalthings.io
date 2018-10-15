@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1017px" height="540px" viewBox="0 0 1017 540" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#77A2F8" offset="0%"></stop>
+            <stop stop-color="#9867D0" offset="100%"></stop>
+            <stop stop-color="#77A2F8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="977" height="500"></rect>
+        <filter x="-3.6%" y="-5.0%" width="107.2%" height="114.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-11" transform="translate(20.000000, 10.000000)">
+            <g id="Rectangle-6" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <rect stroke="url(#linearGradient-1)" stroke-width="1" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0.5" width="976" height="499"></rect>
+            </g>
+            <text id="{-&quot;id&quot;:-&quot;lt:/scenari" font-family="Montserrat-Light, Montserrat" font-size="10" font-weight="300">
+                <tspan x="28" y="34" fill="#231D37">{</tspan>
+                <tspan x="28" y="46" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="46" fill="#77A2F8">"id"</tspan>
+                <tspan x="49.2" y="46" fill="#231D37">: </tspan>
+                <tspan x="53.9" y="46" fill="#9867D0">"lt:/scenarios/2ebd1950-1f8a-462a-a207-2963f1b27043?v=7V29grgK"</tspan>
+                <tspan x="376.28" y="46" fill="#231D37">,</tspan>
+                <tspan x="28" y="58" fill="#77A2F8">  "actors"</tspan>
+                <tspan x="69.37" y="58" fill="#231D37">: {</tspan>
+                <tspan x="28" y="70" fill="#231D37">   </tspan>
+                <tspan x="36.22" y="70" fill="#77A2F8"> "issuer"</tspan>
+                <tspan x="73.02" y="70" fill="#231D37">: {</tspan>
+                <tspan x="28" y="82" fill="#231D37">    </tspan>
+                <tspan x="38.96" y="82" fill="#77A2F8">  "title"</tspan>
+                <tspan x="69.83" y="82" fill="#231D37">: </tspan>
+                <tspan x="74.53" y="82" fill="#9867D0">"Issuer"</tspan>
+                <tspan x="108.84" y="82" fill="#231D37">,</tspan>
+                <tspan x="28" y="94" fill="#231D37">      </tspan>
+                <tspan x="44.44" y="94" fill="#77A2F8">"$ref"</tspan>
+                <tspan x="69.61" y="94" fill="#231D37">: </tspan>
+                <tspan x="74.31" y="94" fill="#9867D0">"https://specs.livecontracts.io/v0.1.0/actor/schema.json#role"</tspan>
+                <tspan x="363.5" y="94" fill="#231D37">,</tspan>
+                <tspan x="28" y="106" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="106" fill="#77A2F8"> "role"</tspan>
+                <tspan x="69.26" y="106" fill="#231D37">: </tspan>
+                <tspan x="73.96" y="106" fill="#9867D0">"authority"</tspan>
+                <tspan x="124.47" y="106" fill="#231D37">,</tspan>
+                <tspan x="28" y="118" fill="#231D37">      </tspan>
+                <tspan x="44.44" y="118" fill="#77A2F8">"key"</tspan>
+                <tspan x="66.93" y="118" fill="#231D37">: </tspan>
+                <tspan x="71.63" y="118" fill="#9867D0">"issuer"</tspan>
+                <tspan x="105.69" y="118" fill="#231D37"></tspan>
+                <tspan x="28" y="130" fill="#231D37">    },</tspan>
+                <tspan x="28" y="142" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="142" fill="#77A2F8">  "license_holder"</tspan>
+                <tspan x="116.39" y="142" fill="#231D37">: {</tspan>
+                <tspan x="28" y="154" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="154" fill="#77A2F8"> "title"</tspan>
+                <tspan x="69.83" y="154" fill="#231D37">: </tspan>
+                <tspan x="74.53" y="154" fill="#9867D0">"License holder"</tspan>
+                <tspan x="151.55" y="154" fill="#231D37">,</tspan>
+                <tspan x="28" y="166" fill="#77A2F8">      "$ref"</tspan>
+                <tspan x="69.61" y="166" fill="#231D37">: </tspan>
+                <tspan x="74.31" y="166" fill="#9867D0">"https://specs.livecontracts.io/v0.1.0/actor/</tspan>
+                <tspan x="28" y="178" fill="#9867D0">schema.json#organization"</tspan>
+                <tspan x="160.55" y="178" fill="#231D37">,</tspan>
+                <tspan x="28" y="190" fill="#231D37">      </tspan>
+                <tspan x="44.44" y="190" fill="#77A2F8">"role"</tspan>
+                <tspan x="69.26" y="190" fill="#231D37">: </tspan>
+                <tspan x="73.96" y="190" fill="#9867D0">"license_holder"</tspan>
+                <tspan x="151.39" y="190" fill="#231D37">,</tspan>
+                <tspan x="28" y="202" fill="#231D37">      </tspan>
+                <tspan x="44.44" y="202" fill="#77A2F8">"key"</tspan>
+                <tspan x="66.93" y="202" fill="#231D37">: </tspan>
+                <tspan x="71.63" y="202" fill="#9867D0">"license_holder"</tspan>
+                <tspan x="149.06" y="202" fill="#231D37"></tspan>
+                <tspan x="28" y="214" fill="#231D37">    },</tspan>
+                <tspan x="28" y="226" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="226" fill="#77A2F8">  "transport"</tspan>
+                <tspan x="90.01" y="226" fill="#231D37">: {</tspan>
+                <tspan x="28" y="238" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="238" fill="#77A2F8"> "title"</tspan>
+                <tspan x="69.83" y="238" fill="#231D37">: </tspan>
+                <tspan x="74.53" y="238" fill="#9867D0">"Transport company"</tspan>
+                <tspan x="175.37" y="238" fill="#231D37">,</tspan>
+                <tspan x="28" y="250" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="250" fill="#77A2F8">    "$ref"</tspan>
+                <tspan x="69.61" y="250" fill="#231D37">: </tspan>
+                <tspan x="74.31" y="250" fill="#9867D0">"https://specs.livecontracts.io/v0.1.0/actor/</tspan>
+                <tspan x="28" y="262" fill="#9867D0">schema.json#organization"</tspan>
+                <tspan x="160.55" y="262" fill="#231D37">,</tspan>
+                <tspan x="28" y="274" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="274" fill="#77A2F8"> "role"</tspan>
+                <tspan x="69.26" y="274" fill="#231D37">: </tspan>
+                <tspan x="73.96" y="274" fill="#9867D0">"transport"</tspan>
+                <tspan x="125.01" y="274" fill="#231D37">,</tspan>
+                <tspan x="28" y="286" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="286" fill="#77A2F8"> "key"</tspan>
+                <tspan x="66.93" y="286" fill="#231D37">: </tspan>
+                <tspan x="71.63" y="286" fill="#9867D0">"transport"</tspan>
+                <tspan x="122.68" y="286" fill="#231D37"></tspan>
+                <tspan x="28" y="298" fill="#231D37">    },</tspan>
+                <tspan x="28" y="310" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="310" fill="#77A2F8">  "recipient"</tspan>
+                <tspan x="88.87" y="310" fill="#231D37">: {</tspan>
+                <tspan x="28" y="322" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="322" fill="#77A2F8">    "title"</tspan>
+                <tspan x="69.83" y="322" fill="#231D37">: </tspan>
+                <tspan x="74.53" y="322" fill="#9867D0">"Recipient / Treatment facility"</tspan>
+                <tspan x="221.78" y="322" fill="#231D37">,</tspan>
+                <tspan x="28" y="334" fill="#231D37">    </tspan>
+                <tspan x="38.96" y="334" fill="#77A2F8">  "$ref"</tspan>
+                <tspan x="69.61" y="334" fill="#231D37">: </tspan>
+                <tspan x="74.31" y="334" fill="#9867D0">"https://specs.livecontracts.io/v0.1.0/actor/</tspan>
+                <tspan x="28" y="346" fill="#9867D0">schema.json#organization"</tspan>
+                <tspan x="160.55" y="346" fill="#231D37">,</tspan>
+                <tspan x="28" y="358" fill="#231D37">   </tspan>
+                <tspan x="36.22" y="358" fill="#77A2F8">   "role"</tspan>
+                <tspan x="69.26" y="358" fill="#231D37">: </tspan>
+                <tspan x="73.96" y="358" fill="#9867D0">"recipient"</tspan>
+                <tspan x="123.87" y="358" fill="#231D37">,</tspan>
+                <tspan x="28" y="370" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="370" fill="#77A2F8"> "key"</tspan>
+                <tspan x="66.93" y="370" fill="#231D37">:</tspan>
+                <tspan x="68.89" y="370" fill="#9867D0"> "recipient"</tspan>
+                <tspan x="121.54" y="370" fill="#231D37"></tspan>
+                <tspan x="28" y="382" fill="#231D37">    },</tspan>
+                <tspan x="28" y="394" fill="#231D37">    </tspan>
+                <tspan x="38.96" y="394" fill="#77A2F8">"processor"</tspan>
+                <tspan x="92.08" y="394" fill="#231D37">: {</tspan>
+                <tspan x="28" y="406" fill="#231D37">   </tspan>
+                <tspan x="36.22" y="406" fill="#77A2F8">   "title"</tspan>
+                <tspan x="69.83" y="406" fill="#231D37">: </tspan>
+                <tspan x="74.53" y="406" fill="#9867D0">"Processor / Treatment facility"</tspan>
+                <tspan x="221.41" y="406" fill="#231D37">,</tspan>
+                <tspan x="28" y="418" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="418" fill="#77A2F8"> "$ref"</tspan>
+                <tspan x="69.61" y="418" fill="#231D37">: </tspan>
+                <tspan x="74.31" y="418" fill="#9867D0">"https://specs.livecontracts.io/v0.1.0/actor/</tspan>
+                <tspan x="28" y="430" fill="#9867D0">schema.json#organization"</tspan>
+                <tspan x="160.55" y="430" fill="#231D37">,</tspan>
+                <tspan x="28" y="442" fill="#231D37">  </tspan>
+                <tspan x="33.48" y="442" fill="#77A2F8">    "role"</tspan>
+                <tspan x="69.26" y="442" fill="#231D37">: </tspan>
+                <tspan x="73.96" y="442" fill="#9867D0">"processor"</tspan>
+                <tspan x="127.08" y="442" fill="#231D37">,</tspan>
+                <tspan x="28" y="454" fill="#231D37">     </tspan>
+                <tspan x="41.7" y="454" fill="#77A2F8"> "key"</tspan>
+                <tspan x="66.93" y="454" fill="#231D37">: </tspan>
+                <tspan x="71.63" y="454" fill="#9867D0">"processor"</tspan>
+                <tspan x="124.75" y="454" fill="#231D37"></tspan>
+                <tspan x="28" y="466" fill="#231D37">    }</tspan>
+            </text>
+            <path d="M20.5,0.5 L20.5,499.5" id="Line-4" stroke="#7FA6F8" stroke-linecap="square" fill-rule="nonzero"></path>
+            <path d="M489.5,0.5 L489.5,499.5" id="Line-4" stroke="#8784E4" stroke-linecap="square" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

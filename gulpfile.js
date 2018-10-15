@@ -57,14 +57,14 @@ gulp.task('compress-js', function () {
         'files/js/jquery.easing.1.3.js',
         'files/js/jquery.visible.min.js',
         // 'files/revolution/js/jquery.themepunch.tools.min.js?rev=5.0',
-
+        
         // 'files/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0',
         // 'files/revolution/js/extensions/revolution.extension.slideanims.min.js',
         // 'files/revolution/js/extensions/revolution.extension.layeranimation.min.js',
         // 'files/revolution/js/extensions/revolution.extension.navigation.min.js',
         //
         // 'files/revolution/js/extensions/revolution.extension.video.min.js',
-        // 'files/revolution/js/extensions/revolution.extension.actions.min.js',
+        // 'files/revolution/jss/extensions/revolution.extension.actions.min.js',
         // 'files/js/tweenMax.js',
         'files/js/jquery.backgroundparallax.min.js',
         'files/js/jquery.isotope.min.js',
@@ -80,14 +80,17 @@ gulp.task('compress-js', function () {
         'files/js/step-form-wizard.min.js',
         'files/js/jquery.mCustomScrollbar.concat.min.js',
         //newly commented 05.03
-
+        
         'files/js/d3.js',
-
-        //newly commented 05.03 end
-
+        
+        //newly commented 05.03 
+        
         'files/js/custom.js',
         'files/js/billboard.js',
-        'files/js/chart.js'
+        'files/js/chart.js',
+        
+        //newly commented 05.03 end
+        'files/js/index.js'
       ])
       .pipe(concat('compress.js'))
       .pipe(gulp.dest('./files/js'));
@@ -97,9 +100,13 @@ gulp.task('clean:dist', function () {
   return del.sync('files/dist');
 });
 
+gulp.task('css', function (callback) {
+  runSequence('compress-css', 'minify-css', callback);
+});
 
 gulp.task('default', function (callback) {
-  runSequence('clean:dist', 'compress-css', 'minify-css', 'compress-js', 'minify-js',
+  runSequence('clean:dist', 'compress-css', 'minify-css', 'compress-js',
+      'minify-js',
       callback
   )
 });
