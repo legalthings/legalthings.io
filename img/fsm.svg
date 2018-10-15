@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2417px" height="1899px" viewBox="0 0 2417 1899" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2" transform="translate(0.000000, 2.000000)">
+            <circle id="Oval" stroke="#000000" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" cx="1092.2" cy="150.2" r="150.2"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" cx="1092.2" cy="678.2" r="150.2"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" cx="1092.2" cy="1206.2" r="150.2"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="4" fill="#FFFFFF" fill-rule="nonzero" cx="1092.2" cy="1734.2" r="152.2"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="4" fill-rule="nonzero" cx="1092.7" cy="1734.7" r="159.7"></circle>
+            <text id="q0" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="1050.20781" y="171">q</tspan>
+                <tspan x="1092.2" y="171" font-family="CMUTypewriter-Light, CMU Typewriter Text" font-weight="300">0</tspan>
+            </text>
+            <text id="q1" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="1050.20781" y="696">q</tspan>
+                <tspan x="1092.2" y="696" font-family="CMUTypewriter-Light, CMU Typewriter Text" font-weight="300">1</tspan>
+            </text>
+            <text id="q2" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="1050.20781" y="1224">q</tspan>
+                <tspan x="1092.2" y="1224" font-family="CMUTypewriter-Light, CMU Typewriter Text" font-weight="300">2</tspan>
+            </text>
+            <text id="q3" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="1050.20781" y="1752">q</tspan>
+                <tspan x="1092.2" y="1752" font-family="CMUTypewriter-Light, CMU Typewriter Text" font-weight="300">3</tspan>
+            </text>
+            <path id="Line-4" d="M1090.25,467.5 L1090.25,300.5 L1090.25,298.5 L1094.25,298.5 L1094.25,300.5 L1094.25,467.5 L1104.25,467.5 L1092.25,491.5 L1080.25,467.5 L1090.25,467.5 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path id="Line-4" d="M888.4,152 L762,152 L760,152 L760,148 L762,148 L888.4,148 L888.4,138 L912.4,150 L888.4,162 L888.4,152 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path id="Line-4" d="M1090.25,995.5 L1090.25,828.5 L1090.25,826.5 L1094.25,826.5 L1094.25,828.5 L1094.25,995.5 L1104.25,995.5 L1092.25,1019.5 L1080.25,995.5 L1090.25,995.5 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path id="Line-4" d="M1090.25,1523.5 L1090.25,1356.5 L1090.25,1354.5 L1094.25,1354.5 L1094.25,1356.5 L1094.25,1523.5 L1104.25,1523.5 L1092.25,1547.5 L1080.25,1523.5 L1090.25,1523.5 Z" fill="#000000" fill-rule="nonzero"></path>
+            <text id="start" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="522.219531" y="168">start</tspan>
+            </text>
+            <text id="document-approved" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="1122.26641" y="942">document approved</tspan>
+            </text>
+            <text id="document-declined" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="76.2664062" y="450">document declined</tspan>
+            </text>
+            <text id="party-i-signed-[part" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="0" y="1170">party </tspan>
+                <tspan x="251.953125" y="1170" font-family="CMUTypewriter-Italic, CMU Typewriter Text" font-style="italic" font-weight="normal">i</tspan>
+                <tspan x="293.945312" y="1170"> signed</tspan>
+                <tspan x="0" y="1276">[party </tspan>
+                <tspan x="293.945312" y="1276" font-family="CMUTypewriter-Italic, CMU Typewriter Text" font-style="italic" font-weight="normal">i </tspan>
+                <tspan x="377.929688" y="1276" font-family="Monaco" font-weight="normal">≠</tspan>
+                <tspan x="425.9375" y="1276" font-family="CMUTypewriter-Regular, CMU Typewriter Text" font-weight="normal"> signed]</tspan>
+            </text>
+            <text id="finalize-document-[∀" font-family="CMUTypewriter-Bold, CMU Typewriter Text" font-size="80" font-weight="bold" fill="#000000">
+                <tspan x="1304" y="1698">finalize document</tspan>
+                <tspan x="1304" y="1804">[</tspan>
+                <tspan x="1345.99219" y="1804" font-family="AppleSymbols, Apple Symbols" font-weight="normal">∀</tspan>
+                <tspan x="1396.42188" y="1804"> </tspan>
+                <tspan x="1438.41406" y="1804" font-family="CMUTypewriter-Italic, CMU Typewriter Text" font-style="italic" font-weight="normal">i</tspan>
+                <tspan x="1480.40625" y="1804"> </tspan>
+                <tspan x="1522.39844" y="1804" font-family="AppleSymbols, Apple Symbols" font-weight="normal">∈ </tspan>
+                <tspan x="1595.13281" y="1804">parties: </tspan>
+                <tspan x="1973.0625" y="1804" font-family="CMUTypewriter-Italic, CMU Typewriter Text" font-style="italic" font-weight="normal">i</tspan>
+                <tspan x="2015.05469" y="1804"> = signed</tspan>
+                <tspan x="2392.98438" y="1804" font-family="CMUTypewriter-Regular, CMU Typewriter Text" font-weight="normal">]</tspan>
+            </text>
+            <path id="Line-5" d="M922.955504,276.947876 C868.94476,337.404878 842,392.767848 842,443 C842,497.870781 881.578556,552.006587 961.014827,605.33953 L962.675297,606.454358 L960.445642,609.775297 L958.785173,608.66047 C878.354777,554.660079 838,499.462552 838,443 C838,391.617675 865.383378,335.369951 920.028774,274.219998 L912.684454,267.374676 L937.82636,258 L930.240957,283.738331 L922.955504,276.947876 Z" fill="#000000" fill-rule="nonzero"></path>
+            <path id="Line-6" d="M899.253779,1145.35904 C858.587288,1164.86706 841.967076,1192.9991 848.970903,1230.12928 C857.085524,1273.14823 893.561221,1288.01063 959.499699,1274.54047 L961.45923,1274.14017 L962.25983,1278.05923 L960.3003,1278.45953 C892.437963,1292.3227 853.650702,1276.51844 845.04022,1230.87072 C837.663067,1191.76139 855.381952,1161.89024 897.771861,1141.63385 L894.02739,1132.22114 L920.763261,1134.5 L902.898648,1154.52138 L899.253779,1145.35904 Z" fill="#000000" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
