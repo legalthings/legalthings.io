@@ -3642,8 +3642,7 @@ footer #backtotop:before {
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #hero.hero-full{
-      padding-top: 0vh;
-      min-height: 700px!important;
+      padding-top: 10rem;
     }
 }
 
@@ -9718,7 +9717,6 @@ background: #77a2f8;
 
 #footer .footer-menu a {
   color: #fff;
-  padding: 0 10px;
   position: relative;
 }
 
@@ -14570,7 +14568,7 @@ transition: .3s all;
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #hero.hero-full {
-      padding-top: 0vh;
+      padding-top: 10rem;
     }
 }
 
@@ -15020,7 +15018,7 @@ background-size: 100% 100%;
 }
 
 @media only screen and (max-width: 960px) {
-  .lite, .regular, .decentralized {
+  .lite, .regular, .decentralized, .blockchain {
     width: auto;
     max-width: 75%;
     border: 0;
@@ -15115,3 +15113,11 @@ p {
 .t-c-fix {
 	min-height: 10vh!important;
 }
+
+@media screen and (max-width:667px) {
+.fieldset-2 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  }
+}
+
