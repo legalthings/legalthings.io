@@ -15047,7 +15047,7 @@ background-size: 100% 100%;
 
 /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
-  width: 100%;
+  width: 75%;
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -15055,7 +15055,7 @@ input[type=text], select, textarea{
 }
 
 input[type=tel], select, textarea{
-  width: 100%;
+  width: 75%;
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -15063,7 +15063,7 @@ input[type=tel], select, textarea{
 }
 
 input[type=email], select, textarea{
-  width: 100%;
+  width: 75%;
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -15120,10 +15120,7 @@ p {
 	min-height: 10vh!important;
 }
 
-@media screen and (max-width:667px) {
 .fieldset-2 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin-bottom: 1rem;
   }
-}
 
