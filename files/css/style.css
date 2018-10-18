@@ -10785,7 +10785,7 @@ html.lock {
 }
 
 .socialsBlock .socialmedia-widget li a {
-  background: #623fe9;
+  background: #77a2f8;
   border-radius: 50px;
   width: 48px;
   height: 48px;
@@ -11269,9 +11269,15 @@ min-height: 650px;
 	border-top: 1px solid #eee;
   display: block;
 }
+
+.sticky-bottom:hover {
+  display: block;
+}
+
+
 .sticky-bottom .wrapper p span {
   font-weight: bold;
-  color: #623fe9;
+  color: #77a2f8;
 	font-size: 22px;
 }
 .sticky-bottom .wrapper p {

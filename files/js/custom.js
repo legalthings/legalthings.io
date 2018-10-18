@@ -1183,19 +1183,33 @@ function manipulatingHeader() {
   $(window).resize(function () {
     topBlockHeight = $('#hero').height();
   });
-  $(window).scroll(function () {
-    scrollFromTop = $(document).scrollTop();
 
-    // console.log(new_offset);
-    // console.log(scrollFromTop);
-
-    if (scrollFromTop > new_offset) {
-      header.addClass('custom-visible');
-      $(".sticky-bottom").addClass('visible');
-    } else {
-      header.removeClass('custom-visible');
-      $(".sticky-bottom").removeClass('visible');
+  $(window).scroll(function(event) {
+  function footer()
+    {
+        var scroll = $(window).scrollTop(); 
+        if(scroll > 1000)
+        { 
+            $(".sticky-bottom").fadeIn("slow").addClass("show");
+        }
+        else
+        {
+            $(".sticky-bottom").fadeOut("slow").removeClass("show");
+        }
+        
+        clearTimeout($.data(this, 'scrollTimer'));
+        $.data(this, 'scrollTimer', setTimeout(function() {
+            if ($('.sticky-bottom').is(':hover')) {
+            footer();
+        }
+            else
+            {
+              $(".sticky-bottom").fadeOut("slow");
+            }
+    }, 3000));
     }
+    footer();
+
   })
 }
 
