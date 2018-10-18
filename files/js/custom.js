@@ -1184,19 +1184,21 @@ function manipulatingHeader() {
     topBlockHeight = $('#hero').height();
   });
 
-  $(window).scroll(function(event) {
+  $(window).scroll(function () {
+    scrollFromTop = $(document).scrollTop();
+
+    if (scrollFromTop > new_offset) {
+      header.addClass('custom-visible');
+      $(".sticky-bottom").addClass('visible');
+    } else {
+      header.removeClass('custom-visible');
+      $(".sticky-bottom").removeClass('visible');
+    }
+  })
+
+
   function footer()
     {
-        var scroll = $(window).scrollTop(); 
-        if(scroll > 1000)
-        { 
-            $(".sticky-bottom").fadeIn("slow").addClass("show");
-        }
-        else
-        {
-            $(".sticky-bottom").fadeOut("slow").removeClass("show");
-        }
-        
         clearTimeout($.data(this, 'scrollTimer'));
         $.data(this, 'scrollTimer', setTimeout(function() {
             if ($('.sticky-bottom').is(':hover')) {
@@ -1207,10 +1209,8 @@ function manipulatingHeader() {
               $(".sticky-bottom").fadeOut("slow");
             }
     }, 3000));
-    }
     footer();
-
-  })
+  }
 }
 
 
