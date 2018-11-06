@@ -7428,9 +7428,8 @@ div .toggle-item:first-child {
 /*  Advisors
 ------------------------------------------------*/
 .reqdemo-container {
- background: url(../../img/flow-bg4.png) no-repeat calc(+1800px) 100px;
- background-size: 40%;
-
+ /*background: url(../../img/flow-bg4.png) no-repeat calc(+1800px) 100px;
+ background-size: 40%;*/
 }
 
 @media screen and (max-width: 960px) {
@@ -15156,4 +15155,9 @@ p {
 
 .fa {
   margin-right: 5px;
+}
+
+.new-h1 {
+  font-size: 34px;
+  line-height: 46px;
 }
