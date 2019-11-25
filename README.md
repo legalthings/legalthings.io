@@ -1,3 +1,3 @@
-# livecontracts.io
+# legalthings.io
 
-[![screenshot-www livecontracts io-2017-11-10-14-08-57-495](https://user-images.githubusercontent.com/100821/32659853-bf5d630a-c620-11e7-8884-931825663aaf.png)](https://www.livecontracts.io)
+![screenshot-legalthings io-2019 11 25-11_21_39](https://user-images.githubusercontent.com/100821/69532300-cb064f00-0f75-11ea-9c5f-2ef54df7b94b.png)
