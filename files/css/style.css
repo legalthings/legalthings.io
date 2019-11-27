@@ -15043,7 +15043,7 @@ background-size: 100% 100%;
     width: auto;
     max-width: 65%;
     border: 0;
-    float: left;
+    float: right;
 }
 
 .company-logo {
@@ -15170,3 +15170,24 @@ p {
   font-size: 34px;
   line-height: 46px;
 }
+
+.header {
+  text-align: center;
+  padding: 20px 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.header img {
+  max-height: 100px;
+  max-width: 100%;
+}
+
+h5.logo {
+  background-repeat: no-repeat;
+  height: 60px;
+  background-size: contain;
+  margin-bottom: 25px;
+  text-indent: 1000vw;
+  white-space: nowrap;
+}
+
