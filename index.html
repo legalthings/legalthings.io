@@ -1,1171 +1,469 @@
 <!doctype html>
 <html class="no-js" lang="en-US">
 
-    <head>
-        <!-- DEFAULT META TAGS -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <meta property="og:title" content="LegalThings">
-        <meta property="og:description" content="Contract innovation for Real Estate">
-        <meta property="og:image" content="/img/lt-logo.png">
-        <meta property="og:image:width" content="100" />
-		<meta property="og:image:height" content="100" />
-        <meta property="og:url" content="http://www.legalthings.io/index.html">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- FONTS -->
-        <!--link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"!-->
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,800" rel="stylesheet" type="text/css">
-        <!--link href="https://fonts.googleapis.com/css?family=Lora:400italic,700italic" rel="stylesheet" type="text/css"!-->
-        <!-- CSS -->
-        <!--<link rel="stylesheet" id="default-style-css" href="files/css/style.css" type="text/css" media="all"/>-->
-        <!--<link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all"/>-->
-        <!--link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all"/-->
-        <!--link rel="stylesheet" id="ionic-icons-style-css" href="files/css/icomoon.css" type="text/css" media="all"/-->
-        <!--<link rel="stylesheet" id="revolution-slider-main-css" href="files/revolution/css/settings.css" type="text/css"-->
-        <!--media="all"-->
-        <!--/>-->
-        <!--<link rel="stylesheet" id="revolution-slider-layer-css" href="files/revolution/css/layers.css" type="text/css"-->
-        <!--media="all"-->
-        <!--/>-->
-        <!--<link rel="stylesheet" id="revolution-slider-nav-css" href="files/revolution/css/navigation.css" type="text/css"-->
-        <!--media="all"-->
-        <!--/>-->
-        <!--<link rel="stylesheet" id="owlcarousel-css" href="files/css/owl.carousel.css" type="text/css" media="all"/>-->
-        <!--<link rel="stylesheet" id="lightcase-css" href="files/css/lightcase.css" type="text/css" media="all"/>-->
-        <!--<link rel="stylesheet" id="isotope-style-css" href="files/css/isotope.css" type="text/css" media="all"/>-->
-        <!--<link rel="stylesheet" id="mqueries-style-css" href="files/css/mqueries.css" type="text/css" media="all"/>-->
-        <!-- Step Form Wizard plugin -->
-        <!--<link rel="stylesheet" href="files/css/step-form-wizard-all.css" type="text/css" media="screen, projection">-->
-        <!-- nicer scroll in steps -->
-        <!--<link rel="stylesheet" href="files/css/jquery.mCustomScrollbar.min.css">-->
-        <link rel="stylesheet" href="files/dist/compress.css">
-        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"!-->
-		    <link rel="stylesheet" href="files/css/iso_bootstrap4.0.0min.css">
+<head>
+    <!-- DEFAULT META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta property="og:title" content="LegalThings">
+    <meta property="og:description" content="Contract innovation for Real Estate">
+    <meta property="og:image" content="/img/lt-logo.png">
+    <meta property="og:image:width" content="100" />
+    <meta property="og:image:height" content="100" />
+    <meta property="og:url" content="http://www.legalthings.io/">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- FONTS -->
+    <!--link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"!-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,800" rel="stylesheet" type="text/css">
+    <!--link href="https://fonts.googleapis.com/css?family=Lora:400italic,700italic" rel="stylesheet" type="text/css"!-->
+    <!-- CSS -->
+    <!--<link rel="stylesheet" id="default-style-css" href="files/css/style.css" type="text/css" media="all"/>-->
+    <!--<link rel="stylesheet" id="fontawesome-style-css" href="files/css/font-awesome.min.css" type="text/css" media="all"/>-->
+    <!--link rel="stylesheet" id="ionic-icons-style-css" href="files/css/ionicons.css" type="text/css" media="all"/-->
+    <!--link rel="stylesheet" id="ionic-icons-style-css" href="files/css/icomoon.css" type="text/css" media="all"/-->
+    <!--<link rel="stylesheet" id="revolution-slider-main-css" href="files/revolution/css/settings.css" type="text/css"-->
+    <!--media="all"-->
+    <!--/>-->
+    <!--<link rel="stylesheet" id="revolution-slider-layer-css" href="files/revolution/css/layers.css" type="text/css"-->
+    <!--media="all"-->
+    <!--/>-->
+    <!--<link rel="stylesheet" id="revolution-slider-nav-css" href="files/revolution/css/navigation.css" type="text/css"-->
+    <!--media="all"-->
+    <!--/>-->
+    <!--<link rel="stylesheet" id="owlcarousel-css" href="files/css/owl.carousel.css" type="text/css" media="all"/>-->
+    <!--<link rel="stylesheet" id="lightcase-css" href="files/css/lightcase.css" type="text/css" media="all"/>-->
+    <!--<link rel="stylesheet" id="isotope-style-css" href="files/css/isotope.css" type="text/css" media="all"/>-->
+    <!--<link rel="stylesheet" id="mqueries-style-css" href="files/css/mqueries.css" type="text/css" media="all"/>-->
+    <!-- Step Form Wizard plugin -->
+    <!--<link rel="stylesheet" href="files/css/step-form-wizard-all.css" type="text/css" media="screen, projection">-->
+    <!-- nicer scroll in steps -->
+    <!--<link rel="stylesheet" href="files/css/jquery.mCustomScrollbar.min.css">-->
+    <link rel="stylesheet" href="files/dist/compress.css">
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"!-->
+    <link rel="stylesheet" href="files/css/iso_bootstrap4.0.0min.css">
 
-        <!--<link rel="stylesheet" href="files/css/style.css">-->
-        <!-- FAVICON -->
-        <link rel="shortcut icon" href="img/favicon.png" />
-        <!-- DOCUMENT TITLE -->
-        <title>LegalThings &middot; Contract innovation for Real Estate</title>
-        
-		
- <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PBRZ65L');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBRZ65L"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!--<link rel="stylesheet" href="files/css/style.css">-->
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <!-- DOCUMENT TITLE -->
+    <title>LegalThings &middot; Contract innovation for Real Estate</title>
 
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62115237-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PBRZ65L');</script>
+    <!-- End Google Tag Manager -->
 
-  gtag('config', 'UA-62115237-1');
-</script>
-
-
-  <script>
-  var alignment = 'right';
-
-  // if (window.innerWidth < 599) {
-  //   alignment = 'left';
-  // } else {
-  //   alignment = 'right';
-  // }
-
-  window.intercomSettings = {
-    app_id: 'g247sp2q',
-    vertical_padding: 110,
-    alignment: alignment
-  };
-
-    (function() { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator');
-      ic('update', intercomSettings); } else { var d = document; var i = function() { i.c(arguments) };
-      i.q = [];
-      i.c = function(args) { i.q.push(args) };
-      w.Intercom = i;
-
-      function l() { var s = d.createElement('script');
-        s.type = 'text/javascript';
-        s.async = true;
-        s.src = 'https://widget.intercom.io/widget/g247sp2q'; var x = d.getElementsByTagName('script')[0];
-        x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()
-  </script>
- </head>
-
-    <body data-gr-c-s-loaded="true" class="page-is-loaded">
-	                                   
-        <!-- PAGE CONTENT -->
-        <div id="page-content">
-		<noscript>
-			<div class="noscript">
-				<p>This site requires Javascript to work, please enable Javascript in your browser or use a browser with Javascript support.
-      		    <br> See <a href="https://www.enable-javascript.com/">here</a> for help.</p>
-	  		</div>
-	  	</noscript>
-            <!-- HEADER -->
-            <header id="header" class="header-bordered header-transparent transparent-light">
-                <div class="header-inner clearfix">
-                    <!--LOGO-->
-                    <div id="logo" class="left-float">
-                        <a href="index.html">
-                            <img id="scroll-logo" src="img/logo/icon-purple.png"
-                                 srcset="img/logo/icon-purple.png 1x, img/logo/icon-purple.png 2x" alt="Logo Scroll">
-                            <img id="dark-logo" src="img/logo/icon-dark-purple.png"
-                                 srcset="img/logo/icon-dark-purple.png 1x, img/logo/icon-dark-purple.png 2x"
-                                 alt="Logo Dark">
-                            <img id="light-logo" src="img/logo/icon-white.png"
-                                 srcset="img/logo/icon-white.png 1x, img/logo/icon-white.png 2x" alt="Logo Light">
-                        </a>
-                    </div>
-                    <!-- MAIN NAVIGATION -->
-                    <div id="menu" class="right-float clearfix">
-                        <a href="#" class="responsive-nav-toggle">
-                            <span class="hamburger"></span>
-                        </a>
-                        <div class="menu-inner">
-                            <nav id="main-nav">
-                                <ul>
-                                    <!-- <li class="">
-                                        <a href="https://app.livecontracts.io" target="ltodemo">Demo</a>
-                                      </li> -->
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- END .menu-inner -->
-                    </div>
-                    <!-- END #menu -->
-                </div>
-                <!-- END .header-inner -->
-            </header>
-            <!-- HEADER END-->
-
-            <!-- STICKY BOTTOM BAR -->
-            
-                  <div class="sticky-bottom">
-                    <div class="wrapper">
-                    <div class="socialsBlock purpleSection">
-                      <a class="sr-button inline button-1 button-small circled"><i class="fa fa-envelope"></i> Email us </a>   
-                      </div>
-                      <a class="sr-button inline button-1 button-small circled" href="#reqdemo"><i class="fa fa-rocket"></i> Request free access</a>
-                    </div>
-
-                  </div>
-            
-            <!-- STICKY BOTTOM BAR END -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PBRZ65L"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
 
-            <!-- HERO  -->
-            <section id="hero"
-                     class="hero-full parallax-section">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62115237-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-	            <div class="hero-nav hero-nav--mobile">
-		            <div class="hero-nav__menu">
-			            <a href="#" class="hero-nav__menu-list hero-nav__menu-list">Home</a>
-                        <a href="#about" class="hero-nav__menu-list">About</a>
-                        <a href="#solutions" class="hero-nav__menu-list hero-nav__menu-list">Solutions</a>
-                        <!--a href="#features" class="hero-nav__menu-list">Features</a!-->
-                        <a href="#benefits" class="hero-nav__menu-list hero-nav__menu-list">Benefits</a>
-                        <a href="#blockchain" class="hero-nav__menu-list">Blockchain</a>
-                        <a href="https://lto.network" class="hero-nav__menu-list" target="_blank">LTO Network</a>
-		            </div>
-		            <div class="hero-nav__socials">
-			            <a href="https://medium.com/ltonetwork" class="hero-nav__socials-icon" target="_blank">
-					            <i class="fa fa-medium"></i>
-				            </a>
-			            <a href="https://twitter.com/getlegalthings" class="hero-nav__socials-icon" target="_blank">
-				            <i class="ion-twitter"></i>
-			            </a>
-			            <a href="https://www.youtube.com/channel/UCaHcF-xterKYTKSpY4xgKiw" class="hero-nav__socials-icon"
-			               target="_blank">
-				            <i class="ion-youtube-3"></i>
-			            </a>
-			            <a href="https://github.com/legalthings" class="hero-nav__socials-icon" target="_blank">
-				            <i class="ion-social-github"></i>
-			            </a>
-			            <a href="https://t.me/joinchat/AJWQTUDKtDlsuGHVFb40eQ" class="hero-nav__socials-icon"
-			               target="_blank">
-				            <i class="fa fa-telegram"></i>
-			            </a>
-		            </div>
-	            </div>
-	            <div class="hero-nav">
-		            <div class="wrapper">
-			            <div class="hero-nav__logo">
-				            <h1>LegalThings</h1>
-			            </div>
-			            <div class="hero-nav__menu">
-			            <a href="#" class="hero-nav__menu-list hero-nav__menu-list">Home</a>
-                        <a href="#about" class="hero-nav__menu-list">About</a>
-                        <a href="#solutions" class="hero-nav__menu-list hero-nav__menu-list">Solutions</a>
-                        <!--a href="#features" class="hero-nav__menu-list">Features</a!-->
-                        <a href="#benefits" class="hero-nav__menu-list hero-nav__menu-list">Benefits</a>
-                        <a href="#blockchain" class="hero-nav__menu-list">Blockchain</a>
-                        <a href="https://lto.network" class="hero-nav__menu-list" target="_blank">LTO Network</a>
-			            </div>
-			            <div class="hero-nav__socials">
-				            <a href="https://medium.com/ltonetwork" class="hero-nav__socials-icon" target="_blank">
-					            <i class="fa fa-medium"></i>
-				            </a>
-				            <a href="https://twitter.com/getlegalthings" class="hero-nav__socials-icon" target="_blank">
-					            <i class="icon-twitter"></i>
-				            </a>
-				            <a href="https://www.youtube.com/channel/UCaHcF-xterKYTKSpY4xgKiw" class="hero-nav__socials-icon"
-				               target="_blank">
-					            <i class="icon-youtube-3"></i>
-				            </a>
-				            <a href="https://github.com/legalthings" class="hero-nav__socials-icon" target="_blank">
-					            <i class="ion-social-github"></i>
-				            </a>
-				            <a href="https://t.me/joinchat/AJWQTUDKtDlsuGHVFb40eQ" class="hero-nav__socials-icon"
-				               target="_blank">
-					            <i class="fa fa-telegram"></i>
-				            </a>
-			            </div>
-			            <div class="hero-nav__bars fa fa-bars"></div>
-		            </div>
+        gtag('config', 'UA-62115237-1');
+    </script>
 
-	            </div>
-                <div id="page-title" class="wrapper align-left">
-                  <div class="info">
-                    <div class="spacer-mini"></div>
-                    <!--<h1>LegalThings</h1>-->
-                    <h2>Contract innovation for Real Estate</h2>
-                    <h3 class="subtitle-1 mobile-h3">
-	                    <p>
-                        LegalThings eliminates the pain points that are associated with the drafting of Real Estate agreements. Streamline your everyday processes and work more efficient using innovative features and implementations. 
-	                    </p>
-	                    <p><strong>
-		                 Go paperless with LegalThings today.
-	                    </p></strong>
 
-                    </h3>
-                    <div class="hero-img-hdr"></div>
-                    <div class="spacer-small"></div>
-					<p class="hero__buttons">
-                        <a href="#reqdemo" class="sr-button inline button-1 button-small circled">
-                         Get free access
-                        </a>
-                        <a href="#blockchain"" class="sr-button button-1 button-small button-small-hero circled">
-                          Blockchain
-                        </a>
-                        <a href="#butnot" class="lc-primary-action sr-button button-1 button-small button-small-hero circled">
-                        Other industries
-                    	</a>
-                    </p>
+    <script>
+        var alignment = 'right';
 
-                    <div class="spacer-small"></div>
-                    <div class="icon-box">
-                        <div class="icon-box-icon">
-                            <i class="ion ion-5x ion-ribbon-b"></i>
-                        </div>
-                        <div class="icon-box-content">
-                            <h5>Winner of the Blockathon by the</h5>
-                            <h5>Dutch Ministry of Justice and Security</h5>
-                        </div>
-                    </div>
-                  </div>
-                </div>
+        // if (window.innerWidth < 599) {
+        //   alignment = 'left';
+        // } else {
+        //   alignment = 'right';
+        // }
 
-           <!-- Partners & Clients  !-->
-	    <div class="hero_customers">
-		    <div class="hero_customers_clients">
-			    <div class="hero_customers_clients__divider"></div>
-			    <!--<h5>CLIENTS WHO ALREADY USE THE PLATFORM</h5>!-->
-			    <h5>A selection of our Real Estate Clients</h5>
-		    </div>
-		    <div class="hero_customers_container">
-			    <div class="hero_customers_container__image">
-				    <a href="https://merin.nl/en/" target="_blank">
-				    <img src="img/customers/merin_logo_black.png"/>
-				    </a>
-			    </div>
-			    <div class="hero_customers_container__image">
-				    <a href="https://www.stenarealty.com" target="_blank">
-				    <img src="img/customers/stena.png"/>
-				    </a>
-			    </div>
-			    <div class="hero_customers_container__image">
-				    <a href="https://firm24.com" target="_blank">
-				    <img src="img/customers/firm24-color.png"/>
-				    </a>
-			    </div>
-			    <div class="hero_customers_container__image">
-				    <a href="https://cms.law" target="_blank">
-				    <img src="img/customers/cms.png"/>
-				    </a>
-			    </div>
-			     <div class="hero_customers_container__image">
-				    <a href="https://www.osrewoningdossier.nl" target="_blank">
-				    <img src="img/customers/osre.png"/>
-				    </a>
-			    </div>
-			    <div class="hero_customers_container__image">
-				    <a href="https://www.m7re.eu" target="_blank">
-				    <img src="img/customers/mseven.jpg"/>
-				    </a>
-			    </div>
-        </div>
-           <!-- !-->
+        window.intercomSettings = {
+            app_id: 'g247sp2q',
+            vertical_padding: 110,
+            alignment: alignment
+        };
 
-                <!-- END #page-title -->
-            </section>
-            <!-- HERO -->
-            <!-- PAGEBODY -->
+        (function() { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator');
+            ic('update', intercomSettings); } else { var d = document; var i = function() { i.c(arguments) };
+            i.q = [];
+            i.c = function(args) { i.q.push(args) };
+            w.Intercom = i;
 
-            <div id="what-is-legal" class="purpleSectionBg general-advantages row-section text-light">
-                <div class="wrapper clearfix">
-                    <div class="column one-half">
-                        <h4><strong>Transform the drafting process of Real Estate agreements</strong></h4>
-                        <div class="spacer-small"></div>
+            function l() { var s = d.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://widget.intercom.io/widget/g247sp2q'; var x = d.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()
+    </script>
+</head>
 
-                        <p>Drafting any Real Estate agreement is a bureaucratic and time-consuming process. Property-dependent data, reviews by multiple parties, version control, signing, and alteration requests by clients are just some of the factors that come into play. Delays caused by human error are often hard to avoid. 
-                        </p>
+<body data-gr-c-s-loaded="true" class="page-is-loaded">
+<!-- PAGE CONTENT -->
+<div id="page-content">
+    <div class="header">
+        <img src="img/legalthings-dark.png">
+    </div>
 
-                        <p>When one takes into account that the complete rental agreement process consists not only of the rental agreement, but also of rental proposals, fact sheets, allonges and termination agreements, the benefits of automation become evident.
-                        </p>
+    <section>
+        <div class="row-section wrapper" id="solutions">
+            <div class="spacer-medium"></div>
 
-                        <p>With LegalThings, any Real Estate company is able to automate and digitize the entire contract lifecycle process. By integrating with your existing systems and solutions, LegalThings makes your organization work significantly more efficient, quick and error-proof.
-                        </p>
-                    </div>
-                    <div class="column one-half last-col">
-                        <img src="img/screens/reflow.svg" class="align-center mockup-1">
-                    </div>
-                </div>
-            </div>
-            <div class="row-section wrapper"  id="solutions">
-                <h2 class="align-center">
-                    <strong>Our solutions</strong>
-                </h2>
-                <!--h5 class="align-center">
-                  Decentralized workflow automation
-                </h5!-->
-                <div class="spacer-medium"></div>
-
-                <div class="column one-half">
-                    <img src="img/screens/lite.png" class="lite">
-                </div>
-                <div class="column one-half last-col">
-                  <h5> LITE: </h5>
-                    <p>
-                      The LegalThings contract drafting-tool facilitates (Real Estate) B2C & B2B-providers with the integration of LegalForms in our SaaS, on websites of in applications through plugins and API’s.
-                    </p>
-                    <p>
-                     Have clients and relations draft their own agreements from within your environments. Edit in Microsoft office and sign digitally with blockchain technology for unique customer experiences.
-                    </p>
-                    <p>
-	                    Add FIRM24’s notary service for end-to-end B2C-solutions.
-                    </p>
-                </div>
-            </div>
-
-			<!-- Miniature private blockchain section !-->                    
-					<!-- Inside a node section !-->
-
-                    <div class="wrapper row-section">
-                        <!--h5 class="subtitle-2">A node consist of an orchestrated cluster of Docker containers, configured to scale to any size.</h5!-->
-                        <div class="spacer-small button-mob"></div>
-                        <div class="reverse-div">
-                         <div class="column one-half">
-                          <h5> REGULAR: </h5>
-                          <p>
-                            Streamline your internal Real Estate processes with the LTO Network workflow engine through adding actors, notifications and due dates to your existing contract lifecycle processes in your custom white label environment.
-                          </p>
-                          <p>
-                            Drafting Real Estate agreements becomes easier and less error-prone by importing static building data right into your agreement. Top up your processes with advanced IT-integrations into other applications, such as CRM-, financial, and building management systems.
-                          </p>
-                        </div>
-                        <div class="column one-half last-col">
-                            <img src="img/screens/integrations.svg" class="regular">
-                        </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-
-            <div class="wrapper row-section">
-              <div class="spacer-small button-mob"></div>
-                <div class="column one-half">
-                    <img src="img/screens/decentralized.svg" class="decentralized">
-                </div>
-                <div class="column one-half last-col">
-                  <h5> DECENTRALIZED: </h5>
-                    <p>
-                      A contract describes procedures to execute one or more promises. With Live Contract technology we turn contracts and processes into business rules and data that allows automation in a decentralized way. Involve third parties and share data automatically by creating decentralized workflows through blockchain. 
-                    </p>
-                    <p>
-                    This way complex inter-organizational business processes will belong to the past and Real Estate standardization is within reach. 
-                    </p>
-                    <div class="spacer-medium"></div>
-                      <a href="https://lto.network" target="_blank" class="sr-button button-1 button-small circled"> Check out LTO Network</a>
-                </div>
-              </div>
-            </div>
-            <div class="spacer-small"></div>
-            <div class="butnot" id="butnot">
-            <div class="wrapper butnot-section text-light">
-              <h2 class="align-center"> But, I'm not a Real Estate company? </h2>
-              <div class="spacer-medium"></div>
-              <div class="column one-half">
-              <p>
-                That’s fine. A lot of companies aren’t. 
-              </p>
-              <p>
-                We’re currently rolling out solutions for various other industries other than Real Estate. If your company requires better and faster document drafting and more efficient process management, LegalThings is here to help your organization. Regardless of the industry you’re operating in. 
-              </p>
-              <p>
-              <a href="#reqdemo" class="sr-button button-1-ghost button-small circled"><i class="fa fa-rocket"></i> Get started now for free!</a>
-            </p>
+            <div class="column one-half">
+                <img src="img/invullen4.gif" class="lite">
             </div>
             <div class="column one-half last-col">
-              <p>
-                LegalThings already supplies companies from the following industries: <br> 
-                &bull; Legal <br>
-                &bull; Insurance <br>
-                &bull; Infrastructure <br>
-                &bull; Entertainment <br>
-                &bull; Waste <br>
-                &bull; Public Services <br>
-                &bull; Transfer pricing <br>
-                &bull; HR 
-              </p>
+                <h5 class="logo" style="background-image: url(img/fillthedoc.svg)">fillthedoc</h5>
+                <p>
+                    <strong>Contract automation for professionals.</strong>
+                </p>
+                <p>
+                    fillthedoc is a powerful tool to fetch data from multiple systems and processes into one - or more documents.
+                </p>
+                <div class="spacer-medium"></div>
+                <a href="https://lto.network" target="_blank" class="sr-button button-1 button-small circled"> Check out fillthedoc</a>
             </div>
+
+        </div>
+
+        <div class="wrapper row-section">
+            <div class="spacer-small button-mob"></div>
+            <div class="reverse-div">
+                <div class="column one-half">
+                    <h5 class="logo" style="background-image: url(img/proofi-black.svg)">Proofi</h5>
+                    <p>
+                        <strong>Trusted digital transactions &amp; identity for every business, starting with Gmail.</strong>
+                    </p>
+                    <p>
+                        Protection starts with people. 90% of all cyber crimes begins with an email, acted on by a human. It's time for a trusted digital transaction tool. Free to use, for everyone online. <strong><em>It's time for Proofi.</em></strong>
+                    </p>
+                    <div class="spacer-medium"></div>
+                    <a href="https://proofi.com" target="_blank" class="sr-button button-1 button-small circled"> Check out Proofi</a>
+
+                </div>
+                <div class="column one-half last-col">
+                    <img src="img/proofi-message.svg" class="regular">
+                </div>
             </div>
-          </div>
-     <!-- START BENEFITS -->
-            <div class="row-section"  id="benefits">
-              <div class="spacer-medium"></div>
-              <div class="wrapper">
+        </div>
+
+        <div class="wrapper row-section">
+            <div class="spacer-small button-mob"></div>
+            <div class="column one-half">
+                <img src="img/workflowed.gif" class="lite">
+            </div>
+            <div class="column one-half last-col">
+                <h5 class="logo" style="background-image: url(img/letsflow-logo.svg)">LetsFlow</h5>
+                <p>
+                    LetsFlow is a workflow engine for automating business processes.
+                </p>
+                <p>
+
+                </p>
+                <p><strong>Expected March '20</strong></p>
+            </div>
+        </div>
+
+        <div class="wrapper row-section">
+            <div class="spacer-small button-mob"></div>
+            <div class="reverse-div">
+                <div class="column one-half">
+                    <h5 class="logo" style="background-image: url(img/ltonetwork-logo.svg)">LTO Network</h5>
+                    <p>
+                        <strong>Hybrid blockchain to streamline business processes and simplify collaboration.</strong>
+                    </p>
+                    <p>
+                        LTO Network can be used by organizations that are seeking cost reduction on repetitive operational processes. By eliminating paperwork and streamlining collaboration on processes between multiple parties - administrative overhead can be reduced significantly.
+                    </p>
+                    <div class="spacer-medium"></div>
+                    <a href="https://ltonetwork.com" target="_blank" class="sr-button button-1 button-small circled"> Check out LTO Network</a>
+                </div>
+
+                <div class="column one-half last-col">
+                    <img src="img/screens/decentralized.svg" class="decentralized">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="spacer-small"></div>
+        <div class="butnot" id="butnot">
+            <div class="wrapper butnot-section text-light">
+                <h2 class="align-center">Contract innovation for Real Estate</h2>
+                <div class="spacer-medium"></div>
+                <div class="column one-half">
+                    <p>
+                        Drafting any Real Estate agreement is a bureaucratic and time-consuming process. Property-dependent data, reviews by multiple parties, version control, signing, and alteration requests by clients are just some of the factors that come into play. Delays caused by human error are often hard to avoid.
+                    </p>
+                    <p>
+                        When one takes into account that the complete rental agreement process consists not only of the rental agreement, but also of rental proposals, fact sheets, allonges and termination agreements, the benefits of automation become evident.
+                    </p>
+                    <p>
+                        With LegalThings, any Real Estate company is able to automate and digitize the entire contract lifecycle process. By integrating with your existing systems and solutions, LegalThings makes your organization work significantly more efficient, quick and error-proof.
+                    </p>
+                    <p>
+                        <strong>Go paperless with LegalThings today.</strong>
+                    </p>
+                </div>
+                <div class="column one-half last-col">
+                    <img src="img/screens/reflow.svg" class="align-center mockup-1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row-section"  id="benefits">
+            <div class="spacer-medium"></div>
+            <div class="wrapper">
                 <h2 class="align-center">
                     <strong>So what are the benefits?</strong>
                 </h2>
-                    <div class="spacer-medium"></div>
-                    <div class="column-section clearfix">
+                <div class="spacer-medium"></div>
+                <div class="column-section clearfix">
                     <div class="column one-half">
-                    <h5><strong>Benefits</strong> of implementing LegalThings solution</h5>
-                    <p>
-                   	<i class="fa fa-check-circle green-i"></i>
-                  <strong> Productivity increase:</strong> Realize up to 54% in time savings.
-                    </p>
-                    <p>
-                   	<i class="fa fa-check-circle green-i"></i>
-                    <strong> Automated compliance:</strong> Save up to 35% on administrative overhead.
-                    </p>
-                    <p>
-                   	<i class="fa fa-check-circle green-i"></i>
-                    <strong> Save 10-20% on OPEX:</strong> Reduce print and document cost.
-                    </p>
-                    <p>
-                    <i class="fa fa-check-circle green-i"></i>
-                    <strong> Minimize human errors:</strong> automation makes workflows less error-prone.
-                    </p>
-                    <p>
-                    <i class="fa fa-check-circle green-i"></i>
-                    <strong> GDPR compliance:</strong> All processes and interactions are GDPR and regulatory compliant, which is another unique feature of LTO network solution.
-                    </p>
+                        <h5><strong>Benefits</strong> of implementing LegalThings solution</h5>
+                        <p>
+                            <i class="fa fa-check-circle green-i"></i>
+                            <strong> Productivity increase:</strong> Realize up to 54% in time savings.
+                        </p>
+                        <p>
+                            <i class="fa fa-check-circle green-i"></i>
+                            <strong> Automated compliance:</strong> Save up to 35% on administrative overhead.
+                        </p>
+                        <p>
+                            <i class="fa fa-check-circle green-i"></i>
+                            <strong> Save 10-20% on OPEX:</strong> Reduce print and document cost.
+                        </p>
+                        <p>
+                            <i class="fa fa-check-circle green-i"></i>
+                            <strong> Minimize human errors:</strong> automation makes workflows less error-prone.
+                        </p>
+                        <p>
+                            <i class="fa fa-check-circle green-i"></i>
+                            <strong> GDPR compliance:</strong> All processes and interactions are GDPR and regulatory compliant, which is another unique feature of LTO network solution.
+                        </p>
                     </div>
                     <div class="column one-half last-col">
-                    <img src="img/bg/benefitsbg.png" class="benefits button-mob">
-                    </div>
-                    </div>
-                    <div class="spacer-medium"></div>
-                    <div class="align-center">
-                      <a href="mailto:support@legalthings.io" class="sr-button button-1 button-small circled"><i class="fa fa-rocket"></i> Contact us</a>
+                        <img src="img/bg/benefitsbg.png" class="benefits button-mob">
                     </div>
                 </div>
-            </div>  
-<!-- END BENEFITS -->
-
-            <div class="spacer-small"></div>
-          <hr class="pretty-hr">
-	        
-            <div class="row-section"  id="blockchain">
-              <div class="spacer-medium"></div>
-              <div class="wrapper">
-              <h2 class="align-center">
-                Blockchain
-              </h2>
-              <div class="spacer-medium"></div>
-             <div class="column one-half align-center">
-              <img src="img/hero-solution.png" class="blockchain">
+                <div class="spacer-medium"></div>
+                <div class="align-center">
+                    <a href="mailto:support@legalthings.io" class="sr-button button-1 button-small circled"><i class="fa fa-rocket"></i> Contact us</a>
+                </div>
             </div>
-            <div class="column one-half last-col">
-              <p>
-             With LegalThings, tapping into the benefits of blockchain is easy. When a document is signed, the event is automatically secured on the blockchain. Proving which document is signed by who is easy. And rest assured, the content of the document itself is never accessible on a public chain.
-           </p>
-            <p>
-              With LTO Network, blockchain is integrated even deeper into the core of our product.
-            </p>
-            <p>
-            Every organization runs numerous business processes, which can define the rules of a workflow, visualized as a flowchart or BPMN diagram. With LTO Network, a workflow is expressed as a deterministic extended Finite State Machine (FSM).
-           </p>
-           <p>
-            <a href="https://lto.network" class="sr-button button-1 button-small circled">
-            Learn more
-            </a>
-            </p>
-            </div>
-            </div>	
-            </div>  
-            <div class="spacer-medium"></div>
-
-             <div class="reqdemoBg row-section align-center text-light" id="request">
-                <div class="wrapper">
-        <h2 class="align-center" style="font-weight: 200;">
-         Request a demo
-        </h2>
-        <div class="column one-half">
-      <img  src="img/showcase.png" alt="Request demo">
         </div>
-          <div class="column one-half last-col" style="text-align: left;">
-            <div class="spacer-big button-mob"></div>
-          <p>
-            <strong>Want to see what LegalThings can do for you?</strong>
-            <br>
-             Each day we give potential clients online and on-site personalized demo’s. This leads to enthusiastic reactions as well as valuable insights. Our consultants proactively discuss these insights with our potential clients in these demo’s. <br><br> If you leave your information by clicking on the button below, we’ll get in touch with you as soon as possible!
-             <div class="spacer-mini"></div>
-             <a href="#reqdemo" class="sr-button button-1-ghost button-small circled"><i class="fa fa-rocket"></i> Request demo!</a>
-          </p>
-          </div>
-        </div>
-     </div>
+    </section>
 
-            
-          <!--
-          <div class="spacer-medium"></div>
-          <hr class="pretty-hr">
-          !-->
-          <div class="spacer-medium"></div>
+    <!-- About us -->
+    <section>
+        <hr class="pretty-hr">
+        <div class="spacer-medium"></div>
 
-            <div class="row-section wrapper" id="in-the-press">
+        <div class="row-section"  id="about">
+            <div class="wrapper">
                 <h2 class="align-center">
-                    <strong>In the press</strong>
+                    About LegalThings
                 </h2>
-              <div class="spacer-mini"></div>
-            <div id="media-logos"></div>
-                <div class="media-slider"></div>
-                <div class="spacer-small"></div>
-
-  <!-- Medium section-->
-<div class="bootstrap">
-<section class="section medium" id="blog">
-    <div class="container">
-        <!---->
-        <div class="section-content" id="blogContent">
-            <div class="row" id="jsonContent"></div>
-        </div>
-        <!-- /#blogContent-->
-
-        <div class="discover-bottom__buttons align-center">
-					        <a href="https://medium.com/legalthingsone" class="sr-button button-1 button-small circled">
-                      Read more
-                  </a>
-                  </div>
-				<!--div class="align-center">
-               	  <div class="button-container button-slide-vertical">
-				 	<div class="slider-vertical">
-		            <a href="https://medium.com/legalthingsone"  class="button">
-		              	<i class="fa fa-medium front"></i>
-		              	<i class="back">Read more</i>
-		            </a>
-					</div>
-	    		</div>
-		</div!-->
-
-        <!--div class="align center text-center sr-button button-1 button-medium circled"><a class="btn btn-dark" id="loadBlogPosts" href="https://medium.com/legalthingsone">View All<span class="fa fa-angle-double-right"></span></a></div>!-->
-    <!-- /.container-->
-</section>
-</div>
-<!-- END Medium section-->
-
-            </div>
-            <!-- FIRST ROW TEAM !-->
-            <hr class="pretty-hr">
-            <div class="team-container" id="meet-the-team">
-                <div class="wrapper row-section team-section">
-                    <h2 class="align-center">
-                        <strong>Meet the Team</strong>
-                    </h2>
-                    <div class="spacer-medium"></div>
-                    <div class="column-section clearfix founders">
-
-                        <div class="column one-fourth team-member align-center">
-                            <a href="https://www.linkedin.com/in/rschmitz/" class="team-image" target="_blank">
-                                <img src="img/team/round_version/rick_schmitz.png" alt="Rick Schmitz - LegalThings">
-                                <!--img class="one" src="img/team/round_version/rick_schmitz.png" alt="Rick Schmitz - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/rick_schmitz_b.png" alt="Rick Schmitz - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Rick Schmitz</strong>
-                                </h5>
-                                <h6 class="subtitle-2">CEO</h6>
-                                <!--div class="team-bio">
-                                    Rick has been a Private Equity and M&A Tax lawyer at both <strong>PwC</strong> and <strong>Deloitte</strong>. Rick is also the founder of the successful Dutch startup Firm24 and LTO Network.
-                                </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/rschmitz/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center">
-                            <a href="https://www.linkedin.com/in/arnolddaniels/" class="team-image" target="_blank">
-                                <img src="img/team/round_version/arnold_daniels.png" alt="Arnold Daniels - LegalThings">
-                                <!--img class="one" src="img/team/round_version/arnold_daniels.png" alt="Arnold Daniels - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/arnold_daniels_b.png" alt="Arnold Daniels - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Arnold Daniels</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Lead Architect</h6>
-                                <!--div class="team-bio">
-                                    Arnold is a software engineer with over 20 years of experience and a certified AWS architect. Arnold is a former Lead Software Engineer at <strong>Cloud9 IDE</strong> (acquired by Amazon in 2016).
-                                </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/arnolddaniels/" target="_blank"></a>
-                                    </li>
-                                    <li class="github">
-                                        <a href="https://github.com/jasny" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center">
-                             <a href="https://www.linkedin.com/in/migchelsen/" class="team-image" target="_blank">
-	                            <img src="img/team/round_version/martijn_migchelsen.png" alt="Martijn Migchelsen - LegalThings">
-                                <!--img class="one" src="img/team/round_version/martijn_migchelsen.png" alt="Martijn Migchelsen - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/martijn_migchelsen_b.png" alt="Martijn Migchelsen - LegalThings"!-->
-                            </a>
-
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Martijn Migchelsen</strong>
-                                </h5>
-                                <h6 class="subtitle-2">CFO &amp; COO</h6>
-                                <!--div class="team-bio">
-                                    Martijn worked as a Corporate Finance Advisor at <strong>PwC</strong> where he was part of the Technology sector team. He is also the co-founder of the successful Dutch startup Firm24 as well as LTO Network.
-                                </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/migchelsen/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center last-col">
-	                        <a href="https://www.linkedin.com/in/svenstam/" class="team-image" target="_blank">
-                                <img src="img/team/round_version/sven_stam.png" alt="Sven Stam - LegalThings">
-                                <!--img class="one" src="img/team/round_version/sven_stam.png" alt="Sven Stam - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/sven_stam_b.png" alt="Sven Stam - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Sven Stam</strong>
-                                </h5>
-                                <h6 class="subtitle-2">CTO</h6>
-                                <!--div class="team-bio">
-                                    Sven has 15+ years of experience. He holds a masters degree in Artificial Intelligence with a specialization in <strong>Distributed Systems</strong>.
-                                </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/svenstam/" target="_blank"></a>
-                                    </li>
-                                 <li class="github">
-                                        <a href="https://github.com/sven4ask" target="_blank"></a>
-                                    </li>
-                                </ul>
-                           </div>
-                        </div>
-                    </div>
-
-                    <!-- END First Row TEAM !-->
-
-                    <!-- TEAM Second Row !-->
-
-                    <div class="spacer-small"></div>
-                    <div class="column-section clearfix founders">
-
-                        <div class="column one-fourth team-member align-center">
-      	                   <a href="https://www.linkedin.com/in/martijnbroersma/" class="team-image" target="_blank">
-                                <img src="img/team/round_version/martijn_broersma.png" alt="Martijn Broersma - LegalThings">
-                                <!--img class="one" src="img/team/round_version/sven_stam.png" alt="Sven Stam - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/sven_stam_b.png" alt="Sven Stam - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Martijn Broersma</strong>
-                                </h5>
-                                <h6 class="subtitle-2">VP Operations</h6>
-                                <!--div class="team-bio">
-                                Martijn previously worked as a <strong>lawyer</strong> at Firm24. He is specialized in automating complex (legal) structures and workflows and oversees LegalThings' daily operations.
-                                 </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/martijnbroersma/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                              </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center">
-                            <a class="team-image" href="https://www.linkedin.com/in/rickros/" target="_blank">
-                                <img class="" src="img/team/round_version/rick_ross.png" alt="Rick Ros - LegalThings">
-                                <!--img class="two" src="img/team/round_version/rick_ross_b.png" alt="Rick Ros - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Rick Ros</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Head of Sales</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/rickros/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                        </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center">
-                            <a href="https://www.linkedin.com/in/diederick-cardon-18a85912/" class="team-image" target="_blank">
-                                <img src="img/team/round_version/diederick-cardon.png" alt="Diederick Cardon - LegalThings">
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Diederick Cardon</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Head of Legal</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/diederick-cardon-18a85912/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center last-col">
-                            <a class="team-image" href="https://www.linkedin.com/in/michael-nieveld-7b52551a/" target="_blank">
-                                <img class="" src="img/team/round_version/michael_nieveld.png" alt="Michael Nieveld - LegalThings">
-                                <!--img class="two" src="img/team/round_version/michael_nieveld_b.png" alt="Michael Nieveld - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Michael Nieveld</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Legal & Tax</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/michael-nieveld-7b52551a/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                     </div> 
-                    </div>
-
-					<!-- END TEAM Second Row !-->
-                    <!-- Rest of the Team !-->
-			<div class="show-more">
-				<!--Div to expand on click !-->
-				<div class="column-section clearfix">
-
-					<div class="column one-fourth team-member align-center">
-                            <a class="team-image">
-                                <img src="img/team/round_version/Maupie.png" alt="Maurits Wismeijer - LegalThings">
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Maurits Wismeijer</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Legal Consultant</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="#" target="_blank"></a>
-                                    </li>
-                                    <li class="github">
-                                        <a href="#" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-					<div class="column one-fourth team-member align-center">
-                            <a class="team-image" href="https://www.linkedin.com/in/benjamin-roeloffs-valk-35ab70120/" target="_blank">
-                                <img src="img/team/round_version/Ben.png" alt="Benjamin Roeloffs Valk - LegalThings">
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Benjamin Roeloffs Valk</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Designer & Marketeer</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/benjamin-roeloffs-valk-35ab70120/" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="column one-fourth team-member align-center">
-                            <a href="https://www.linkedin.com/in/moesjarraf/" class="team-image" target="_blank">
-                                <img src="img/team/round_version/moesjarraf_jahangier.png" alt="Moesjarraf Jahangier - LegalThings">
-                                <!--img class="one" src="img/team/round_version/arnold_daniels.png" alt="Arnold Daniels - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/arnold_daniels_b.png" alt="Arnold Daniels - LegalThings"!-->
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Moesjarraf Jahangier</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Senior Backend Developer</h6>
-                                <!--div class="team-bio">
-                                  Moesjarraf is one of main engines driving LegalThings development. He created a large part of the services around LegalThings node.
-                                 </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/moesjarraf/" target="_blank"></a>
-                                    </li>
-                                  <li class="github">
-                                        <a href="https://github.com/moesjarraf" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-
-                        <div class="column one-fourth team-member align-center last-col">
-                            <a class="team-image" href="https://www.linkedin.com/in/sarfaraaz-jahangier-442a38135/" target="_blank">
-                                <img src="img/team/round_version/sarfaraaz_jahangier.png" alt="Sarfaraaz Jahangier - LegalThings">
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Sarfaraaz Jahangier</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Developer</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/sarfaraaz-jahangier-442a38135/" target="_blank"></a>
-                                    </li>
-                                    <li class="github">
-                                        <a href="https://github.com/Sarfaraaz" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>  
-
-
-
-                    </div>
-
-
-                    <div class="column-section clearfix">
-                        <div class="column one-fourth  team-member align-center">
-                            <a class="team-image" href="https://www.linkedin.com/in/mitchel-kerckhaert-b55400123/" target="_blank">
-                                <img src="img/team/round_version/mitchel-kerckhaert.png" alt="Mitchel Kerckhaert - LegalThings">
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Mitchel Kerckhaert</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Developer</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/mitchel-kerckhaert-b55400123/" target="_blank"></a>
-                                    </li>
-                                    <li class="github">
-                                        <a href="https://github.com/MitchelKerckhaert" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="column one-fourth team-member align-center">
-                            <a class="team-image" href="https://www.linkedin.com/in/jurre-wolsink-b12258a6/" target="_blank">
-                                <img src="img/team/round_version/jurre-wolsink.png" alt="Jurre Wolsink - LegalThings">
-                            </a>
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Jurre Wolsink</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Developer</h6>
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/jurre-wolsink-b12258a6/" target="_blank"></a>
-                                    </li>
-                                    <li class="github">
-                                        <a href="https://github.com/jurrew27" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="column one-fourth team-member align-center">
-                            <a href="https://www.linkedin.com/in/yevhen-horbachov-0b601756/" class="team-image" target="_blank">
-	                            <img src="img/team/round_version/yevhen_horbachov.png" alt="Yevhen Horbachov - LegalThings">
-                                <!--img class="one" src="img/team/round_version/martijn_migchelsen.png" alt="Martijn Migchelsen - LegalThings"!-->
-                                <!--img class="two" src="img/team/round_version/martijn_migchelsen_b.png" alt="Martijn Migchelsen - LegalThings"!-->
-                            </a>
-
-                            <div class="team-content">
-                                <h5 class="team-name uppercase">
-                                    <strong>Yevhen Horbachov</strong>
-                                </h5>
-                                <h6 class="subtitle-2">Lead Frontend Developer</h6>
-                                <!--div class="team-bio">
-                                  Yevhen has over 15 years of development experience in which he led the front end team of the <strong>European Patent Office</strong>, he is currently in charge of the LegalThings frontend development.
-                                </div!-->
-                                <ul class="socialmedia-widget hover-fade-1">
-                                    <li class="linkedin">
-                                        <a href="https://www.linkedin.com/in/yevhen-horbachov-0b601756/" target="_blank"></a>
-                                    </li>
-                                  <li class="github">
-                                        <a href="https://github.com/KillaBee1985" target="_blank"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                         <div class="column one-fourth team-member align-center last-col">
-                            <div class="team-content">
-                            </div>
-                        </div>
-                    </div>
-                    
+                <div class="spacer-medium"></div>
+                <div class="column one-half">
+                    <p>
+                        LegalThings was born from a common pain to almost everyone who has worked in a corporate environment: despite working with smart and organized people, we are still spending too much time on process management and reproduction of the same content.
+                    </p>
+                    <p>
+                        Founded by lawyers and software architects and originated as a spin-off from FIRM24, The Netherlands biggest notary platform, LegalThings is currently offered as a white-label solution for every organization that wants to drastically upgrade their digital transaction management.
+                    </p>
                 </div>
-
-            <div class="align-center">
-	        <a id="show-more" class="sr-button inline button-1 button-small circled"><i class="fa fa-arrow-down"></i> More team members</a> <!-- Expand team button !-->
-	        </div>
+                <div class="column one-half last-col align-center">
+                    <a href="https://firm24.com">
+                        <img src="img/company/firm24.svg" class="company-logo">
+                    </a>
+                    <div class="spacer-mini"></div>
+                    <img src="img/company/lt.svg" class="company-logo">
+                    <div class="spacer-mini"></div>
+                    <a href="https://lto.network">
+                        <img src="img/company/ltonetwork.svg" class="company-logo">
+                    </a>
+                </div>
             </div>
-
-            <!-- END Team-section -->
-
-            <!-- About us -->
-              <hr class="pretty-hr">
-              <div class="spacer-medium"></div>
-
-             <div class="row-section"  id="about">
-              <div class="wrapper">
-              <h2 class="align-center">
-                About LegalThings
-              </h2>
-              <div class="spacer-medium"></div>
-             <div class="column one-half">
-              <p>
-              LegalThings was born from a common pain to almost everyone who has worked in a corporate environment: despite working with smart and organized people, we are still spending too much time on process management and reproduction of the same content.
-              </p>
-              <p>
-              Founded by lawyers and software architects and originated as a spin-off from FIRM24, The Netherlands biggest notary platform, LegalThings is currently offered as a white-label solution for every organization that wants to drastically upgrade their digital transaction management.
-              </p>
-            </div>
-            <div class="column one-half last-col align-center">
-              <a href="https://firm24.com">
-              <img src="img/company/firm24.svg" class="company-logo">
-            </a>
-              <div class="spacer-mini"></div>
-              <img src="img/company/lt.svg" class="company-logo">
-              <div class="spacer-mini"></div>
-              <a href="https://lto.network">
-              <img src="img/company/ltonetwork.svg" class="company-logo">
-            </a>
-            </div>
-          </div>
         </div>
 
-        	<!-- Contact information -->
-           <div class="row-section"  id="contactinfo">
-              <div class="wrapper">
-              	<!--
-              <h5 class="align-center">
-                Contact information
-              </h5>
-              <div class="spacer-medium"></div>
-              !-->
-             <div class="column one-half">
-             <div class="spacer-small"></div>
-              <p>
-              <strong>
-              Visit us <br>
-              </strong>
-              Burgerweeshuispad 201, 1076 GR <br>
-              Amsterdam, the Netherlands 
-            </p>
-              <p>
-              <strong>
-              Email us <br>
-              </strong>
-              <a href="mailto:support@legalthings.io">support@legalthings.io</a>
-            </p>
-            
+        <div class="row-section"  id="contactinfo">
+            <div class="wrapper">
+                <div class="column one-half">
+                    <div class="spacer-small"></div>
+                    <p>
+                        <strong>
+                            Visit us <br>
+                        </strong>
+                        Van Diemenstraat 20-200, 1013 CN <br>
+                        Amsterdam, the Netherlands
+                    </p>
+                    <p>
+                        <strong>
+                            Email us <br>
+                        </strong>
+                        <a href="mailto:support@legalthings.io">support@legalthings.io</a>
+                    </p>
+
+                </div>
+                <div class="column one-half last-col">
+                    <div class="align-center button-mob">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.9385425086684!2d4.889364021650256!3d52.3896644183283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60907bba5e621%3A0xef30a4a76f533009!2sProofi!5e0!3m2!1snl!2snl!4v1574850401617!5m2!1snl!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="column one-half last-col">
-              <div class="align-center button-mob">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.704869617884!2d4.8543553159023825!3d52.339499979780506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e1f65ea50e4d%3A0xe8f2106a22cace15!2sLegalThings!5e0!3m2!1sen!2snl!4v1524060130344" width="75%" height="222px" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-            </div>
-
-        </div>  
-    </div>    
-
-    <!-- END About us & Contact info -->
-
-            <!-- Request demo form -->
-            <div class="spacer-medium"></div>
-              <hr class="pretty-hr">
-
-            <div class="reqdemo-container" id="reqdemo">
-            	<div class="spacer-medium"></div>
-                <div class="wrapper row-section reqdemo-section">
-                    <h2 class="align-center">
-                        <strong>Request access to the demo portal</strong>
-                    </h2>
-                    <div class="spacer-medium"></div>
-                    <h5 class="subtitle-2 align-center">
-	                  <p> Experience LegalThings yourself through our Real Estate dedicated demo environment. </p>
-	                  <p> Get in touch with us today for an exclusive peak. </p>
-                    </h5>
-                    <div class="spacer-medium"></div>
-                    <div class="form">
-                   <form action="https://firm24.us17.list-manage.com/subscribe/post" method="post">
-          			  <input type="hidden" name="u" value="1508bdb96b4379a9aeb07c6e8">
-           				 <input type="hidden" name="id" value="f8769372ea">
-                  <div class="column one-third align-center button-mob">
-                  <img src="img/bg/reqdemo.png" alt="Request demo">
-                  </div>
-                  <div class="column one-third align-center">
-                  <fieldset class="fieldset-2">
-                  <input placeholder="First name" type="text" tabindex="1" name="MERGE1" id="MERGE1" size="25" required>
-                  </fieldset>
-
-                  <fieldset class="fieldset-2">
-                  <input placeholder="Last name" type="text" tabindex="2" name="MERGE2" id="MERGE2" size="25" required>
-                  </fieldset>
-
-                  <fieldset class="fieldset-2">
-                  <input placeholder="Company name" type="text" tabindex="3" name="MERGE3" id="MERGE3" size="25" required>
-                  </fieldset>
-
-                  </div>
-
-                  <div class="column one-third last-col align-center">
-                  	<fieldset class="fieldset-2">
-                   <input placeholder="Email Address" type="email" tabindex="4" name="MERGE0" id="MERGE0" size="25" required>
-                   </fieldset>
-
-                   <fieldset class="fieldset-2">                 
-                    <input placeholder="Phone Number" type="tel" tabindex="5" name="MERGE4" id="MERGE4" size="25" required>
-                    </fieldset>
-                  
-                  <fieldset class="fieldset-2">
-                     <button name="b_1508bdb96b4379a9aeb07c6e8_f8769372ea" type="submit" id="contact-submit" data-submit="...Sending" class="sr-button inline button-1 button-small circled"><i class="fa fa-rocket"></i> Request access!</button>
-                    </fieldset>
-                  </div>
-              	</div>
-                  <!--div class="column one-sixth last-col align-center">
-                    <fieldset>
-                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" class="sr-button inline button-1 button-small circled">Submit</button>
-                    </fieldset>
-                  </div!-->
-                </form>
-              </div>
-            </div>
-            <div class="spacer-medium"></div>
         </div>
-      </div>
-   <!-- END Request demo form -->
+    </section>
 
-            <!-- FOOTER -->
-            <footer id="footer" class="footer-dark text-light">
-                <div class="wrapper column-section">
-                  <div class="column one-third">
-                    <div class="copyright">
+    <!-- Request demo form -->
+    <section>
+        <div class="spacer-medium"></div>
+        <hr class="pretty-hr">
+
+        <div class="reqdemo-container" id="reqdemo">
+            <div class="spacer-medium"></div>
+            <div class="wrapper row-section reqdemo-section">
+                <h2 class="align-center">
+                    <strong>Request a demo</strong>
+                </h2>
+                <div class="spacer-medium"></div>
+                <h5 class="subtitle-2 align-center">
+                    <p>Get in touch with us today to find out how LegalThings can help your business.</p>
+                </h5>
+                <div class="spacer-medium"></div>
+                <div class="form">
+                    <form action="https://firm24.us17.list-manage.com/subscribe/post" method="post">
+                        <input type="hidden" name="u" value="1508bdb96b4379a9aeb07c6e8">
+                        <input type="hidden" name="id" value="f8769372ea">
+                        <div class="column one-third align-center button-mob">
+                            <img src="img/bg/reqdemo.png" alt="Request demo">
+                        </div>
+                        <div class="column one-third align-center">
+                            <fieldset class="fieldset-2">
+                                <input placeholder="First name" type="text" tabindex="1" name="MERGE1" id="MERGE1" size="25" required>
+                            </fieldset>
+
+                            <fieldset class="fieldset-2">
+                                <input placeholder="Last name" type="text" tabindex="2" name="MERGE2" id="MERGE2" size="25" required>
+                            </fieldset>
+
+                            <fieldset class="fieldset-2">
+                                <input placeholder="Company name" type="text" tabindex="3" name="MERGE3" id="MERGE3" size="25" required>
+                            </fieldset>
+
+                        </div>
+
+                        <div class="column one-third last-col align-center">
+                            <fieldset class="fieldset-2">
+                                <input placeholder="Email Address" type="email" tabindex="4" name="MERGE0" id="MERGE0" size="25" required>
+                            </fieldset>
+
+                            <fieldset class="fieldset-2">
+                                <input placeholder="Phone Number" type="tel" tabindex="5" name="MERGE4" id="MERGE4" size="25" required>
+                            </fieldset>
+
+                            <fieldset class="fieldset-2">
+                                <button name="b_1508bdb96b4379a9aeb07c6e8_f8769372ea" type="submit" id="contact-submit" data-submit="...Sending" class="sr-button inline button-1 button-small circled"><i class="fa fa-rocket"></i> Request demo</button>
+                            </fieldset>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="spacer-medium"></div>
+    </section>
+    <!-- END Request demo form -->
+
+    <!-- FOOTER -->
+    <footer id="footer" class="footer-dark text-light">
+        <div class="wrapper column-section">
+            <div class="column one-third">
+                <div class="copyright">
                     ©2018 <strong>LegalThings</strong><br>
-                        <small>
+                    <small>
                         Incorporated by <a href="https://www.firm24.com/bv-oprichten/" target="_blank" alt="Firm24" class="text-light"><strong>Firm24</strong></a></small>
-                  </div>
-                  </div>
-                  <div class="column one-third align-center">
-                    <div class="footer-menu">
+                </div>
+            </div>
+            <div class="column one-third align-center">
+                <div class="footer-menu">
                     <div class="hero-nav__socials">
                         <a href="https://medium.com/ltonetwork" class="hero-nav__socials-icon" target="_blank">
-                      <i class="fa fa-medium"></i>
-                    </a>
-                    <a href="https://twitter.com/getlegalthings" class="hero-nav__socials-icon" target="_blank">
-                      <i class="icon-twitter"></i>
-                    </a>
-                    <a href="https://www.youtube.com/channel/UCaHcF-xterKYTKSpY4xgKiw" class="hero-nav__socials-icon"
-                       target="_blank">
-                      <i class="icon-youtube-3"></i>
-                    </a>
-                    <a href="https://github.com/legalthings" class="hero-nav__socials-icon" target="_blank">
-                      <i class="ion-social-github"></i>
-                    </a>
-                        </div>
+                            <i class="fa fa-medium"></i>
+                        </a>
+                        <a href="https://twitter.com/getlegalthings" class="hero-nav__socials-icon" target="_blank">
+                            <i class="icon-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCaHcF-xterKYTKSpY4xgKiw" class="hero-nav__socials-icon"
+                           target="_blank">
+                            <i class="icon-youtube-3"></i>
+                        </a>
+                        <a href="https://github.com/legalthings" class="hero-nav__socials-icon" target="_blank">
+                            <i class="ion-social-github"></i>
+                        </a>
                     </div>
-                  </div>
-                  <div class="column one-third last-col">
-                  <div class="footer-menu privacy">
-                  <a href="terms-cookies.html" target="_blank" class="text-light" style="text-decoration: none!important;">Terms & Conditions</a> <br>
-                  <a href="terms-cookies.html#cookies" target="_blank" class="text-light button-mob">Cookie statement</a>
                 </div>
             </div>
-            </footer>
-            <!--  END FOOTER -->
+            <div class="column one-third last-col">
+                <div class="footer-menu privacy">
+                    <a href="terms-cookies.html" target="_blank" class="text-light" style="text-decoration: none!important;">Terms & Conditions</a> <br>
+                    <a href="terms-cookies.html#cookies" target="_blank" class="text-light button-mob">Cookie statement</a>
+                </div>
+            </div>
         </div>
-    
-        <!-- SCRIPTS -->
-        <script src="files/dist/compress.js"></script>
-        <!--script src="files/js/index.js"></script!-->
-        <!--script src="https://checkout.stripe.com/checkout.js"></script!-->
-        <!--script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.0/parsley.min.js"></script!-->
-        <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script!-->
+    </footer>
+<!--  END FOOTER -->
+</div>
 
-        <!-- This needs to be loaded from their site, not locally -->
-        <!--<script src="files/js/jquery-2.1.4.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.easing.1.3.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.visible.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.navigation.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.actions.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/tweenMax.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.owl.carousel.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.lightcase.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/script.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.ajaxchimp.min.js"></script>-->
-        <!--<script type="text/javascript" src="files/js/jquery.countdown.min.js"></script>-->
-        <!--<script src="files/js/social.js"></script>-->
-        <!--<script src="files/js/step-form-wizard.min.js"></script>-->
-        <!--<script src="files/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
-        <!-- SCRIPTS -->
+<!-- SCRIPTS -->
+<script src="files/dist/compress.js"></script>
+<!--script src="files/js/index.js"></script!-->
+<!--script src="https://checkout.stripe.com/checkout.js"></script!-->
+<!--script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.8.0/parsley.min.js"></script!-->
+<!--script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script!-->
 
-    <!-- Twitter universal website tag code -->
+<!-- This needs to be loaded from their site, not locally -->
+<!--<script src="files/js/jquery-2.1.4.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.easing.1.3.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.visible.min.js"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/jquery.themepunch.tools.min.js?rev=5.0"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.navigation.min.js"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+<!--<script type="text/javascript" src="files/revolution/js/extensions/revolution.extension.actions.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/tweenMax.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.backgroundparallax.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.isotope.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.imagesloaded.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.owl.carousel.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.lightcase.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/script.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.ajaxchimp.min.js"></script>-->
+<!--<script type="text/javascript" src="files/js/jquery.countdown.min.js"></script>-->
+<!--<script src="files/js/social.js"></script>-->
+<!--<script src="files/js/step-form-wizard.min.js"></script>-->
+<!--<script src="files/js/jquery.mCustomScrollbar.concat.min.js"></script>-->
+<!-- SCRIPTS -->
+
+<!-- Twitter universal website tag code -->
 <script>
-!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
-},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
-a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
-// Insert Twitter Pixel ID and Standard Event data below
-twq('init','o0h1d');
-twq('track','PageView');
+    !function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+    },s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+        a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+    // Insert Twitter Pixel ID and Standard Event data below
+    twq('init','o0h1d');
+    twq('track','PageView');
 </script>
 <!-- End Twitter universal website tag code -->
-    </body>
+</body>
 </html>

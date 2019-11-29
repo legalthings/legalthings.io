@@ -1,21 +1,21 @@
 {
-  "name": "old",
+  "name": "legalthings.io",
   "version": "1.0.0",
-  "description": "[![screenshot-www livecontracts io-2017-11-10-14-08-57-495](https://user-images.githubusercontent.com/100821/32659853-bf5d630a-c620-11e7-8884-931825663aaf.png)](https://www.livecontracts.io)",
+  "description": "LegalThings website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/legalthings/smartcontracts-website.git"
+    "url": "git+https://github.com/legalthings/legalthings.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/legalthings/smartcontracts-website/issues"
+    "url": "https://github.com/legalthings/legalthings.io/issues"
   },
-  "homepage": "https://github.com/legalthings/smartcontracts-website#readme",
+  "homepage": "https://github.com/legalthings/legalthings.io#readme",
   "dependencies": {
     "compress": "^0.99.0",
     "del": "^3.0.0",
