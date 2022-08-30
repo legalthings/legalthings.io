@@ -27,7 +27,7 @@
     "jquery.countdown": "^1.2.8",
     "lodash": "^4.17.11",
     "moment": "^2.20.1",
-    "moment-timezone": "^0.5.14",
+    "moment-timezone": "^0.5.35",
     "run-sequence": "^2.2.0"
   },
   "devDependencies": {
